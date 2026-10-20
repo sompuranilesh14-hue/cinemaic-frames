@@ -20,16 +20,3 @@ body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}
 .nav a[aria-current="page"]{color:var(--orange);text-decoration:underline;text-underline-offset:6px}
 footer{margin-top:auto;border-top:1px solid var(--line)}
 @media(max-width:760px){.hero{padding-top:38px;padding-bottom:38px}}
-
-/* Fix portfolio card text visibility */
-.work-card,
-.work-card * {
-  visibility: visible;
-}
-
-.work-card h2,
-.work-card h3,
-.work-card .work-title {
-  position: relative;
-  z-index: 10;
-}
